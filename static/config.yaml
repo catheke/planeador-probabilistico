@@ -1,0 +1,14 @@
+# config.yaml: Configurações do sistema
+sectors:
+  - Triagem
+  - Consulta
+  - Exames
+transition_base:
+  - [0.6, 0.3, 0.1]
+  - [0.2, 0.5, 0.3]
+  - [0.1, 0.3, 0.6]
+num_patients: 10
+turno: manhã
+gravidade: média
+medicos_disponiveis: 5
+modelo_prob: pyro

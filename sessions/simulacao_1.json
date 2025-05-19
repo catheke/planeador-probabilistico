@@ -1,0 +1,134 @@
+{
+  "config": {
+    "sectors": [
+      "Triagem",
+      "Consulta",
+      "Exames"
+    ],
+    "transition_base": [
+      [
+        0.25,
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0.25,
+        0.25
+      ]
+    ],
+    "exit_probs": [
+      0.24024471370201933,
+      0.23751994990343026,
+      0.25698614423539773
+    ],
+    "num_patients": 10,
+    "turno": "noite",
+    "gravidade": "alta",
+    "medicos_disponiveis": 5,
+    "prioridade_ativa": false
+  },
+  "results": [
+    {
+      "patient_id": 0,
+      "total_waiting_time": 3.7952268303378625,
+      "sectors_visited": [
+        "Triagem"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 1,
+      "total_waiting_time": 0.1379593707210805,
+      "sectors_visited": [
+        "Triagem",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 2,
+      "total_waiting_time": 12.588780947443139,
+      "sectors_visited": [
+        "Triagem"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 3,
+      "total_waiting_time": 0.9906668523355538,
+      "sectors_visited": [
+        "Triagem",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 4,
+      "total_waiting_time": 15.209495704725992,
+      "sectors_visited": [
+        "Triagem"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 5,
+      "total_waiting_time": 3.734977342624253,
+      "sectors_visited": [
+        "Triagem"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 6,
+      "total_waiting_time": 1.7570192439037073,
+      "sectors_visited": [
+        "Triagem"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 7,
+      "total_waiting_time": 9.255885564511747,
+      "sectors_visited": [
+        "Triagem"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 8,
+      "total_waiting_time": 10.296119475407703,
+      "sectors_visited": [
+        "Triagem"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 9,
+      "total_waiting_time": 3.0098712038815254,
+      "sectors_visited": [
+        "Triagem"
+      ],
+      "priority": "Normal"
+    }
+  ],
+  "stats": {
+    "avg_time_per_sector": {
+      "Triagem": 6.077600253589257,
+      "Consulta": 0.0,
+      "Exames": 0.0
+    },
+    "sector_visits": {
+      "Triagem": 10,
+      "Consulta": 0,
+      "Exames": 0
+    },
+    "doctor_usage": [],
+    "doctor_occupation": 0.0
+  }
+}

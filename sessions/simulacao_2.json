@@ -1,0 +1,766 @@
+{
+  "config": {
+    "sectors": [
+      "Triagem",
+      "Consulta",
+      "Exames"
+    ],
+    "transition_base": [
+      [
+        0.3,
+        0.3,
+        0.3
+      ],
+      [
+        0.3,
+        0.3,
+        0.3
+      ],
+      [
+        0.3,
+        0.3,
+        0.3
+      ]
+    ],
+    "exit_probs": [
+      0.09644275040221904,
+      0.13914511160051501,
+      0.13104242368201488
+    ],
+    "num_patients": 20,
+    "turno": "manh\u00e3",
+    "gravidade": "baixa",
+    "medicos_disponiveis": 5,
+    "prioridade_ativa": true,
+    "transition_probs": [
+      [
+        0.30737596038370907,
+        0.2882501735810387,
+        0.3079311156330332
+      ],
+      [
+        0.29536329727941835,
+        0.2848293264908821,
+        0.2806622646291846
+      ],
+      [
+        0.29590792456619036,
+        0.28497787753201503,
+        0.28807177421977964
+      ]
+    ]
+  },
+  "results": [
+    {
+      "patient_id": 3,
+      "total_waiting_time": 6.128620267782848,
+      "sectors_visited": [
+        "Triagem",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 5,
+      "total_waiting_time": 27.021432295686907,
+      "sectors_visited": [
+        "Triagem",
+        "Exames",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 4,
+      "total_waiting_time": 30.386004856712614,
+      "sectors_visited": [
+        "Triagem",
+        "Consulta",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 1,
+      "total_waiting_time": 78.75011317990021,
+      "sectors_visited": [
+        "Triagem",
+        "Consulta",
+        "Consulta",
+        "Consulta",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 6,
+      "total_waiting_time": 47.86732117471753,
+      "sectors_visited": [
+        "Triagem",
+        "Exames",
+        "Consulta",
+        "Exames",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 10,
+      "total_waiting_time": 27.74874105160222,
+      "sectors_visited": [
+        "Triagem",
+        "Exames",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 16,
+      "total_waiting_time": 22.366696288543864,
+      "sectors_visited": [
+        "Triagem",
+        "Exames",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 15,
+      "total_waiting_time": 34.557343600298516,
+      "sectors_visited": [
+        "Triagem",
+        "Consulta",
+        "Exames",
+        "Consulta",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 11,
+      "total_waiting_time": 110.78027971116997,
+      "sectors_visited": [
+        "Triagem",
+        "Exames",
+        "Exames",
+        "Consulta",
+        "Exames",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 19,
+      "total_waiting_time": 0.23151098358199057,
+      "sectors_visited": [
+        "Triagem",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 14,
+      "total_waiting_time": 62.553741811367935,
+      "sectors_visited": [
+        "Triagem",
+        "Triagem",
+        "Exames",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 2,
+      "total_waiting_time": 88.75696193428388,
+      "sectors_visited": [
+        "Triagem",
+        "Triagem",
+        "Triagem",
+        "Exames",
+        "Exames",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 7,
+      "total_waiting_time": 39.21742783635768,
+      "sectors_visited": [
+        "Triagem",
+        "Triagem",
+        "Triagem",
+        "Exames",
+        "Triagem",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 17,
+      "total_waiting_time": 99.59937421245658,
+      "sectors_visited": [
+        "Triagem",
+        "Exames",
+        "Exames",
+        "Triagem",
+        "Exames",
+        "Exames",
+        "Exames",
+        "Triagem",
+        "Exames",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 13,
+      "total_waiting_time": 101.08719072292068,
+      "sectors_visited": [
+        "Triagem",
+        "Consulta",
+        "Exames",
+        "Triagem",
+        "Consulta",
+        "Triagem",
+        "Exames",
+        "Consulta",
+        "Triagem",
+        "Exames",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 12,
+      "total_waiting_time": 125.25981072727708,
+      "sectors_visited": [
+        "Triagem",
+        "Exames",
+        "Exames",
+        "Triagem",
+        "Consulta",
+        "Consulta",
+        "Triagem",
+        "Consulta",
+        "Triagem",
+        "Triagem",
+        "Exames",
+        "Exames",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 9,
+      "total_waiting_time": 166.69281837002745,
+      "sectors_visited": [
+        "Triagem",
+        "Triagem",
+        "Triagem",
+        "Exames",
+        "Exames",
+        "Exames",
+        "Triagem",
+        "Consulta",
+        "Exames",
+        "Consulta",
+        "Triagem",
+        "Triagem",
+        "Exames",
+        "Triagem",
+        "Consulta",
+        "Consulta",
+        "Consulta",
+        "Exames",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 18,
+      "total_waiting_time": 391.7724291284549,
+      "sectors_visited": [
+        "Triagem",
+        "Exames",
+        "Exames",
+        "Consulta",
+        "Exames",
+        "Triagem",
+        "Triagem",
+        "Exames",
+        "Triagem",
+        "Consulta",
+        "Consulta",
+        "Triagem",
+        "Exames",
+        "Triagem",
+        "Triagem",
+        "Consulta",
+        "Triagem",
+        "Exames",
+        "Consulta",
+        "Consulta",
+        "Triagem",
+        "Exames",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 0,
+      "total_waiting_time": 317.1480371006633,
+      "sectors_visited": [
+        "Triagem",
+        "Consulta",
+        "Consulta",
+        "Exames",
+        "Triagem",
+        "Triagem",
+        "Triagem",
+        "Consulta",
+        "Consulta",
+        "Exames",
+        "Exames",
+        "Triagem",
+        "Triagem",
+        "Exames",
+        "Consulta",
+        "Exames",
+        "Exames",
+        "Exames",
+        "Triagem",
+        "Exames",
+        "Exames",
+        "Exames",
+        "Triagem",
+        "Triagem",
+        "Consulta",
+        "Exames",
+        "Exames",
+        "Consulta",
+        "Exames",
+        "Consulta",
+        "Triagem",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    },
+    {
+      "patient_id": 8,
+      "total_waiting_time": 584.0936599305448,
+      "sectors_visited": [
+        "Triagem",
+        "Exames",
+        "Exames",
+        "Triagem",
+        "Consulta",
+        "Triagem",
+        "Consulta",
+        "Consulta",
+        "Triagem",
+        "Exames",
+        "Exames",
+        "Triagem",
+        "Triagem",
+        "Consulta",
+        "Exames",
+        "Consulta",
+        "Exames",
+        "Triagem",
+        "Triagem",
+        "Triagem",
+        "Exames",
+        "Consulta",
+        "Triagem",
+        "Exames",
+        "Consulta",
+        "Triagem",
+        "Exames",
+        "Consulta",
+        "Consulta",
+        "Exames",
+        "Consulta",
+        "Consulta",
+        "Exames",
+        "Consulta",
+        "Sa\u00edda"
+      ],
+      "priority": "Normal"
+    }
+  ],
+  "stats": {
+    "avg_time_per_sector": {
+      "Triagem": 10.889101664592006,
+      "Consulta": 19.957674551182688,
+      "Exames": 11.483575352204342
+    },
+    "sector_visits": {
+      "Triagem": 68,
+      "Consulta": 45,
+      "Exames": 63
+    },
+    "doctor_usage": [
+      [
+        3.049993350702084,
+        1
+      ],
+      [
+        8.222528563548135,
+        1
+      ],
+      [
+        10.130733889832499,
+        -1
+      ],
+      [
+        10.130733889832499,
+        1
+      ],
+      [
+        15.356342014495905,
+        1
+      ],
+      [
+        25.537513759277928,
+        -1
+      ],
+      [
+        44.88766335104842,
+        -1
+      ],
+      [
+        48.96878175371326,
+        -1
+      ],
+      [
+        48.96878175371326,
+        1
+      ],
+      [
+        63.97156449411949,
+        -1
+      ],
+      [
+        63.97156449411949,
+        1
+      ],
+      [
+        74.05111145643748,
+        1
+      ],
+      [
+        81.8001065306023,
+        -1
+      ],
+      [
+        81.88749469728813,
+        -1
+      ],
+      [
+        148.7866888001437,
+        1
+      ],
+      [
+        159.9200203704579,
+        -1
+      ],
+      [
+        175.57273183022318,
+        1
+      ],
+      [
+        175.60884171348707,
+        1
+      ],
+      [
+        194.51164216034337,
+        -1
+      ],
+      [
+        194.51672321881472,
+        -1
+      ],
+      [
+        213.2318574639202,
+        1
+      ],
+      [
+        213.89387907774926,
+        -1
+      ],
+      [
+        258.88027056678226,
+        1
+      ],
+      [
+        279.020164291912,
+        -1
+      ],
+      [
+        293.95788511607896,
+        1
+      ],
+      [
+        299.57046311869726,
+        -1
+      ],
+      [
+        304.76685092192423,
+        1
+      ],
+      [
+        308.7152565132253,
+        1
+      ],
+      [
+        331.6257731299761,
+        -1
+      ],
+      [
+        337.3207447721959,
+        -1
+      ],
+      [
+        337.3207447721959,
+        1
+      ],
+      [
+        361.962824817837,
+        -1
+      ],
+      [
+        408.0709220643653,
+        1
+      ],
+      [
+        408.9274884190683,
+        -1
+      ],
+      [
+        408.9274884190683,
+        1
+      ],
+      [
+        446.4009982747285,
+        1
+      ],
+      [
+        447.86724668018,
+        1
+      ],
+      [
+        449.57341710397526,
+        -1
+      ],
+      [
+        454.85369755966474,
+        1
+      ],
+      [
+        456.2200755764913,
+        -1
+      ],
+      [
+        470.47496651593417,
+        -1
+      ],
+      [
+        480.75434848539896,
+        -1
+      ],
+      [
+        480.75434848539896,
+        1
+      ],
+      [
+        483.88914578112485,
+        1
+      ],
+      [
+        508.95136857586465,
+        -1
+      ],
+      [
+        519.508714376847,
+        -1
+      ],
+      [
+        523.503435629337,
+        1
+      ],
+      [
+        536.74700183457,
+        -1
+      ],
+      [
+        536.74700183457,
+        1
+      ],
+      [
+        538.0998167465855,
+        1
+      ],
+      [
+        540.4140492172313,
+        -1
+      ],
+      [
+        545.8237433610218,
+        -1
+      ],
+      [
+        617.3502185425197,
+        1
+      ],
+      [
+        648.1596876651149,
+        1
+      ],
+      [
+        654.4924477782372,
+        -1
+      ],
+      [
+        654.4924477782372,
+        1
+      ],
+      [
+        669.9900339583364,
+        -1
+      ],
+      [
+        673.4420508728435,
+        1
+      ],
+      [
+        682.2317931098779,
+        -1
+      ],
+      [
+        682.2317931098779,
+        1
+      ],
+      [
+        686.7418920993566,
+        -1
+      ],
+      [
+        699.2562289177295,
+        1
+      ],
+      [
+        701.2831724157431,
+        -1
+      ],
+      [
+        701.5895116944282,
+        -1
+      ],
+      [
+        702.6566379090862,
+        1
+      ],
+      [
+        703.6714824079336,
+        -1
+      ],
+      [
+        759.0688945828741,
+        1
+      ],
+      [
+        796.6125543492781,
+        1
+      ],
+      [
+        803.2035247288746,
+        -1
+      ],
+      [
+        813.813035970406,
+        1
+      ],
+      [
+        843.0158058991517,
+        -1
+      ],
+      [
+        843.0158058991517,
+        1
+      ],
+      [
+        845.0980757635793,
+        -1
+      ],
+      [
+        846.794889086139,
+        -1
+      ],
+      [
+        875.7571573271932,
+        1
+      ],
+      [
+        878.5670887879247,
+        1
+      ],
+      [
+        878.7547950416374,
+        -1
+      ],
+      [
+        878.7547950416374,
+        1
+      ],
+      [
+        885.8367153759278,
+        -1
+      ],
+      [
+        888.7799645585619,
+        -1
+      ],
+      [
+        900.8963394125782,
+        1
+      ],
+      [
+        912.0578308897353,
+        1
+      ],
+      [
+        914.5712209404937,
+        -1
+      ],
+      [
+        914.890381002127,
+        1
+      ],
+      [
+        937.1965427871102,
+        -1
+      ],
+      [
+        949.8339560055302,
+        -1
+      ],
+      [
+        949.8339560055302,
+        1
+      ],
+      [
+        982.0399723815472,
+        -1
+      ],
+      [
+        986.1729547442437,
+        1
+      ],
+      [
+        1032.7844353744276,
+        -1
+      ]
+    ],
+    "doctor_occupation": 0.39552781850635815
+  }
+}
